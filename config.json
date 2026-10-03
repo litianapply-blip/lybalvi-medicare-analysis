@@ -1,0 +1,16 @@
+{
+  "state": "US",
+  "years": [2023, 2024],
+  "releases": {"2023": "e54db557-cd82-4e91-a0fe-61aad5865d69", "2024": "d5aa71a8-dcc0-4570-8bcf-bd39deac69fe"},
+  "products": [
+    {"brand": "Lybalvi", "generic": "Olanzapine/Samidorphan Malate", "product": "LYBALVI", "focal": true},
+    {"brand": "Olanzapine", "generic": "Olanzapine", "product": "Generic olanzapine", "focal": false},
+    {"brand": "Aripiprazole", "generic": "Aripiprazole", "product": "Generic aripiprazole", "focal": false},
+    {"brand": "Quetiapine Fumarate", "generic": "Quetiapine Fumarate", "product": "Generic quetiapine fumarate", "focal": false}
+  ],
+  "comparison_label": "LYBALVI plus three selected generic-labeled products; formulation not resolved",
+  "page_size": 5000,
+  "max_pages_per_product": 200,
+  "segment_claim_threshold": 1000,
+  "threshold_sensitivity": [500, 1000, 2000]
+}

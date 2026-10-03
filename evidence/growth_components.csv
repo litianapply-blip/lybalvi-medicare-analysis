@@ -1,0 +1,4 @@
+baseline_year,comparison_year,cohort,observed_npis,observed_claims_2023,observed_claims_2024,observed_claim_change
+2023,2024,Continuing observed records,1132,31457,37363,5906
+2023,2024,Newly observed records,1212,0,19727,19727
+2023,2024,No-longer-observed records,491,7677,0,-7677

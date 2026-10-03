@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-10-02T18:21:46.356163+00:00",
+  "real_rows": 558954,
+  "first_run_id": "9573a01feedd4107a5286460116795f0",
+  "second_run_id": "a727592bec6449cb997c6490f7f6b3eb",
+  "cached_rerun_identical": true,
+  "csv_sha256": {
+    "downloads/us_selected_prescribing_2023_2024.csv": "b0909688fb692cc44481a902075e2769087ec7703018436385288e97ec2fba8e",
+    "tableau/growth_components.csv": "9136a4eced39edf9124a0dc7433a5799f3c25a34c4aa5d25e19d0a10e657faea",
+    "tableau/investigation_segments.csv": "a78bf8941849aacfe55435ebcbbc4ca7624db88de0d8b98d91ba7ce419c9bead",
+    "tableau/product_year.csv": "7ca66c889ccfc118f56b1631df2a53593858acfe7869a6659f05ff915abaa892",
+    "tableau/provider_attribute_changes.csv": "16f9e0bc473f30a3cb1fdad8cb44ba80dd7d178e6960fd3c3d4bf1091ff9a894",
+    "tableau/segment_year.csv": "e3b9fac410af1e30119f04d30b7e8b522abef8ba2c3875bcae22e48f1e2c768c",
+    "tableau/state_summary.csv": "e40b776dbb22a7047af60404c02125c2d0b3641c85f5837fee60e3e5ee197d68",
+    "tableau/year_growth.csv": "72686e41f3c686f87a1df9b2d9a8e2d94d511deca890aaf0c12d441797965bdd",
+    "tableau/year_summary.csv": "8c055d66b11be9f0bd69a994d5324fbedc7cd205beb6e761f6fbcd46d2196d73"
+  },
+  "controlled_failures": [
+    {
+      "defect": "duplicate",
+      "rejected_with": "Duplicate source key detected (identifier omitted in portfolio copy)",
+      "current_pointer_unchanged": true,
+      "csv_hashes_unchanged": true
+    },
+    {
+      "defect": "missing_column",
+      "rejected_with": "Missing required columns: ['Tot_Clms']",
+      "current_pointer_unchanged": true,
+      "csv_hashes_unchanged": true
+    },
+    {
+      "defect": "negative_claims",
+      "rejected_with": "Invalid negative or nonfinite Tot_Clms: -1",
+      "current_pointer_unchanged": true,
+      "csv_hashes_unchanged": true
+    }
+  ]
+}
